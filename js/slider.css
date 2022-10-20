@@ -1,0 +1,49 @@
+.slick-prev
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(240, 248, 255,0.3);
+    z-index: 2;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    width: 50px;
+}
+.slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(240, 248, 255,0.3);
+    z-index: 2;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    width: 50px;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+}
+.slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+    background-color: rgba(224, 22, 22, 0.3);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+.slick-dots .slick-active button {
+    background-color: rgb(161, 0, 0);
+}
